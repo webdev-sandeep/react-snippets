@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./PartyPopper.css";
-import confetti from "https://esm.run/canvas-confetti@1";
+import confetti from "canvas-confetti";
 
 const PartyPoppers = () => {
   const partyRef = useRef(null);
