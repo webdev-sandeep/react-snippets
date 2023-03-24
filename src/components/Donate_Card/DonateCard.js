@@ -19,7 +19,11 @@ const DonateCard = () => {
               <p>Donate below.</p>
             </div>
             <div className="buttons">
-              <button className="paypal">
+              <a
+                className="paypal"
+                href="https://www.paypal.com/in/home"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -36,8 +40,12 @@ const DonateCard = () => {
                   />
                 </svg>
                 Paypal
-              </button>
-              <button className="patreon">
+              </a>
+              <a
+                className="patreon"
+                href="https://www.patreon.com/"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -50,7 +58,7 @@ const DonateCard = () => {
                   />
                 </svg>
                 Patreon
-              </button>
+              </a>
             </div>
           </div>
         </div>

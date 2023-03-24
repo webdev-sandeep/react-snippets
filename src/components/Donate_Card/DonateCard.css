@@ -42,21 +42,16 @@
   z-index: 2;
 }
 
-.donate-card:hover,
-.donate-card-shadow:hover {
-  box-shadow: 0px 0rem 2rem rgba(255, 253, 55, 0.5);
-}
-
 .donate-card-shadow {
   background-color: #ff3d44;
   border-radius: 30px;
   opacity: 0.9;
   position: absolute;
   height: 200px;
-  width: 200px;
+  width: 240px;
   z-index: 1;
   top: 10px;
-  left: 110px;
+  left: 100px;
 }
 
 .donate-icon {
@@ -84,8 +79,9 @@
   align-items: center;
 }
 
-button {
+a {
   color: white;
+  text-decoration: none;
   border-radius: 5px;
   border: unset;
   padding: 0.2rem 0.4rem;
@@ -97,6 +93,7 @@ button {
 
 .paypal {
   background-color: #0070ba;
+  margin-right: 1rem;
 }
 
 .patreon {
