@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #fde74c;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 23rem;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 15rem;
+  color: gray;
+  font-weight: 600;
+}
+
+input::placeholder {
+  color: gray;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+button {
+  background-color: #b2deff;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.output {
+  padding: 0rem 2rem;
+  width: 100%;
+  background-color: #fef29b;
+  border-radius: 5px;
+  max-height: 12.5rem;
+  overflow-y: auto;
+}
+
+.guess {
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  margin: 2rem 0rem;
+}
+
+.reset {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
