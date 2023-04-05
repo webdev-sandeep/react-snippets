@@ -25,7 +25,6 @@ const GuessGame = () => {
       setGuess("");
     }
   };
-  console.log(number);
   return (
     <div className="container">
       <img
