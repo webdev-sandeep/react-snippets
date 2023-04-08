@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  padding: 4rem;
+}
+
+.section__heading {
+  color: #2f5662;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.section__subheading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section__body {
+  display: grid;
+  grid-column-gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2.5rem;
+}
+
+.section__card__header {
+  position: relative;
+}
+
+.img__container {
+  height: 275px;
+  margin-bottom: 2.25rem;
+}
+
+.img__container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.img__count {
+  position: absolute;
+  bottom: -2.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e3e6ea;
+}
+
+.img__info {
+  margin: 2.25rem 0rem;
+}
+
+.img__heading {
+  padding: 1.5rem 0 1.25rem 0;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  color: #0e0a28;
+  font-weight: 600;
+}
+
+.img__description {
+  color: #8081a4;
+  letter-spacing: 0.25px;
+  word-spacing: 2px;
+  margin: 0 2rem;
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .section__body {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section__body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
